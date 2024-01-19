@@ -1,0 +1,176 @@
+*{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+:root{
+    --margin: 2px 147px;
+}
+.navbar{
+    padding-top: 8px;
+    display: flex;
+    height: 65px;
+    background-color: #121212;
+    color: #ffffff;
+}
+.logo img{
+    height: 50px;
+    width: 215px;
+    float: left;
+}
+.navEl{
+    display: block;
+    margin-left: 45%;
+}
+.navEl ul{
+    display: flex;
+    list-style-type: none;
+}
+.items a:link, a:visited{
+    /* text-decoration: none; */
+    color: #ffffff;
+    font-family: 'Baloo Bhai';
+
+}
+.items{
+    margin: 10px 0;
+    padding: 4px 38px;
+    /* border: 2px solid red; */
+    /* text-decoration: underline; */
+    font-size: 18px;
+}
+.items a:hover{
+    color: #ccc5c5;
+}
+
+.intro{
+    display: flex;
+    background-color: #393D3F;
+    height: 100%;
+    width: 100%;
+}
+
+.persInfo{
+    width: 60%;
+}
+.empty{
+    padding-top: 13%;
+}
+.persInfo h1{
+    width: 95%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 67px;
+    color: #e9ecef;
+    margin: var(--margin);
+    padding: 5px 42px;
+}
+.persInfo h3{
+    width: 95%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #dee2e6;
+    margin: var(--margin);
+    padding: 15px 42px;
+}
+.persInfo p{
+    width: 95%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ced4da;
+    margin: var(--margin);
+    padding: 5px 42px;
+}
+.photo{
+    display: flex;
+    float: right;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+}
+.photo img{
+    height: 54%;
+    width: 50%;
+    margin: 142px 4px;
+    border-radius: 100px;
+}
+.prof{
+    display: flex;
+    margin: 65px 0%;
+    justify-content: flex-end;
+}
+.profInfo{
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin: 2px 4px;
+    height: 156px;
+    width: 156px;
+    border-radius: 108px;
+    padding: 2px 4px;
+    /* border: 2px solid red; */
+    border: 2px solid black;
+    font-family: 'Baloo Bhai';
+    font-size: 20px;
+}
+#resume{
+    background-color: #6c757d;
+}
+#resume:hover{
+    cursor: pointer;
+    background-color: #6c757d8c;
+}
+#resume a:link,a:visited{
+    text-decoration: none;
+}
+#projects{
+    background-color: #495057;
+}
+#projects:hover{
+    cursor: pointer;
+    background-color: #49505776;
+}
+#projects a:link,a:visited{
+    text-decoration: none;
+}
+#certificates{
+    background-color: #343a40;
+}
+#certificates:hover{
+    cursor: pointer;
+    background-color: #22262b81;
+}
+#certificates a:link,a:visited{
+    text-decoration: none;
+}
+
+.social{
+    background-color: #696969;
+    display: flex;
+}
+.media{
+    padding: 14px 57px;
+}
+#mail{
+    text-decoration: underline;
+}
+.title{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #e9ecef;
+}
+.link{
+    color: white;
+    opacity: 0.7;
+}
+.link a{
+    color: white;
+    opacity: 0.7;
+}
+footer{
+    display: relative;
+    background-color: #B6B6B4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
